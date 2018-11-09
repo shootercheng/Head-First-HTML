@@ -120,3 +120,14 @@ E		http://www.earlsautos.com/cars/new/images/minicooper.gif
 	使用target打开新窗口，要在一个新窗口中打开一个页面，需要告诉浏览器你要打开的窗口名。如果没有告诉浏览器
 要使用哪个特定的窗口，浏览器就会在同一个窗口中打开这个页面。可以为<a>元素增加一个target属性，告诉浏览器会在
 同一个窗口中打开这个页面。如果使用"_blank"作为目标，浏览器就总是打开一个新窗口显示页面。
+
+2018/11/9
+-----------------------
+ jquery.js、jquery.min.js的区别
+ 
+ jquery.js完整的未压缩的库，使用与学习，阅读源码
+ jquery.min.js 压缩过的库,删除了空白符、注释、空行等，使用于产品
+ 
+ Download the compressed, production jQuery 3.3.1 -->  https://code.jquery.com/jquery-3.3.1.min.js
+ Download the uncompressed, development jQuery 3.3.1  -->  https://code.jquery.com/jquery-3.3.1.js
+ 类似的，还有bootstrap.js、bootstarp.min.js
